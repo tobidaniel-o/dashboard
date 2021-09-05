@@ -1,5 +1,4 @@
-html,
-body {
+* {
   margin: 0;
   padding: 0;
 }
@@ -15,8 +14,12 @@ body {
   text-shadow: 1px 1px 2px #474747;
 }
 
+.wrapper {
+  padding: 2rem;
+}
+
 main {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -29,4 +32,22 @@ div.top {
 
 h1.time {
   text-align: center;
+}
+
+div#crypto {
+  font-size: 1.3rem;
+}
+
+div#crypto > p {
+  margin: 0;
+}
+
+div#crypto-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+div#crypto-top > span {
+  margin-left: 10px;
 }
